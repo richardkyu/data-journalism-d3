@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>D3Times</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.3/d3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row head">
+			<div class="col-xs-12 col-md-12 col-md-offset-0">
+				<h1>D3 Data Journalism Exercise</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 section1">
+				<div class="iframeContainer">
+					<h2>Scatter Analysis</h2>
+					<iframe class="chart" src="d3.html" style="height:600px;width:1140px;"></iframe>
+					<p>Select different X-axis to swich to different analysis</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="article">
+					<ul>
+						<h2>Analysis:</h2>
+						<h3>Education Level vs. Oral Health in those aged 65+</h3>
+						<li>
+							Studying the relationship between proportion of individuals with all teeth missing and education level in elderly populations, 
+							it was found that there was a negative correlation of about r= -0.72, which suggests a negative correlation between education and
+							teeth missing. In other words, the higher the education, the less proportion of individuals with all their teeth missing at 65 years of age
+							within the state. This may be due to a number of factors, such as those with higher education having greater means to care for their oral
+							health, or just greater awareness in general, but it is hard to draw conclusions about causation from correlation.
+						</li><br/>
+						<h3>Race and Skin Cancer</h3>
+						<li>
+							Some studies suggest that individuals who are considered white by race may be more prone to skin cancer than other races. The basis of this idea
+							lies in the fact that white individuals, by definition, usually have less melanin than black individuals and would thus be more exposed to the 
+							effects of UV radiation. We found a correlation of r = 0.48, which is a mildly positive relationship, but not very conclusive at all.
+						</li><br/>
+						<h3>Food Stamp Status and Smoking</h3>
+						<li>
+							For these two characteristics, we found a r= 0.43 correlation. Again, it makes sense that there would not be much correlation between families
+							getting food stamps and those smoking for a variety of reasons. In the first place, the comparison is between different measures of people in the population,
+							families in comparison to individuals. So there is a differing degree of resolution in the comparison itself (i.e. children in families where the
+							head of house is smoking likely aren't smoking, but if their parents are on foodstamps, they are considered to be on foodstamps because they are part of the families.)
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+	</footer>
+</body>
+</html>
