@@ -1,5 +1,6 @@
 # D3
-## Link: https://cherngywh.github.io/D3/
+
+Methods borrowed from: https://cherngywh.github.io
 
 **Background**
 
