@@ -1,5 +1,7 @@
 # D3
 
+Link: https://richardkyu.github.io/d3%20data%20journalism/
+
 Methods borrowed from: https://cherngywh.github.io
 
 **Background**
